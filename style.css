@@ -1,3 +1,50 @@
 body, html{
     
 }
+p, h1, h2, h3, li{
+    width: 94%;
+    max-width: 50rem;
+    margin: 2rem  2rem;
+    
+}
+.title{
+    font-size: 30px;
+    text-align:center;
+}
+
+#headT{
+    margin: 2rem auto;
+}
+#title1{
+    border-radius: 6px;
+    
+}
+.parallax {
+    width: 90%;
+    margin: 2rem auto;
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.parallaxStart{
+    width: 100%;
+    margin: 0rem auto;
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+   
+}
+
+#introPic, #video{
+    background-image: url("resources/bgPicture.jpg");
+}
